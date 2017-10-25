@@ -1,8 +1,10 @@
 # Robosysi
 Device driver fro Rasberrypi 3
+
 #概要
 このリポジトリはLinuxドライバのリソースが含んでいる
 そのデバイスドライバを使ってGPIOの出力をコントロールする
+
 #準備
 [-]リナックスカーネルリソース
   [---]カーネルリソースを /usr/src/linux というディレクトリにダウンロードする
@@ -13,6 +15,7 @@ Device driver fro Rasberrypi 3
 ・resistor
   ・330[Ω]
 　・10k[Ω]
+
 #使用方法
 [-]myled.cを指定のディレクトリにgit clone2で複製する
 [-]GPIOに出力を出す方法
@@ -21,7 +24,9 @@ Device driver fro Rasberrypi 3
 [--]sudo chmod 666 /dev/myled0 //デバイスファイルの操作権限を与える
 [--]echo 1 > /dev/myled0   //指定のピンに電圧を出力する、LEDが点灯
 [--]echo 0 > /dev/myled0  //LEDが消灯
+
 #LED点灯実験動画URL
 [[(LED点灯)>https://www.youtube.com/watch?v=u6zmz3Zq5E0]]
+
 #ライセンス
 This reposity is licensed under GPLv3 license
