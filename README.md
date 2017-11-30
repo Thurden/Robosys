@@ -8,9 +8,9 @@ Device driver fro Rasberrypi 3
 # 準備
 * リナックスカーネルリソース  
 * カーネルリソースを /usr/src/linux というディレクトリにダウンロードする  
-  　* カーネルビルドスクリプト:[https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts]  
+  * カーネルビルドスクリプト:https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts
 * ラズベリーパイ 2 また　ラズベリーパイ 3  
-   * 私はラズベリーパイ 3でこの実験を行った  
+  * 私はラズベリーパイ 3でこの実験を行った  
 * LED  
 * resistor  
   * 330[Ω]  
